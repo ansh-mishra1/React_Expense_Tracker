@@ -1,0 +1,38 @@
+
+.tableSection{
+    width: 100%;
+}
+.table{
+    width: 100%;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 4px 4px 18px 2px blue;
+    background-color: #fff;
+}
+.thead tr{
+    font-size: 1em;
+    background-color: blue;
+} 
+.thead th{
+    padding: 10px;
+    color: white;
+}
+.selectCategory{
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+}
+.selectCategory option {
+    background-color: lightblue;
+}
+.table tr td{
+    padding: 10px;
+}
+.table tr:nth-child(even){
+    background-color: #d3d3d394;
+}

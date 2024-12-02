@@ -1,0 +1,24 @@
+.main {
+    height: 100%;
+    margin-block: 52px;
+    padding-inline: 42px;
+    display: flex;
+    align-items: start;
+    gap: 56px;
+
+}
+
+.heading {
+    text-align: center;
+    color: blue;
+    background-color: #fff;
+    margin-top: 32px;
+}
+
+@media(max-width: 768px) {
+    .main {
+        flex-direction: column;
+        margin-block: 32px;
+        padding-inline: 24px;
+    }
+}

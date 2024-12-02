@@ -1,0 +1,35 @@
+.inputBox{
+    position: relative;
+    margin-block: 24px;
+}
+.inputGroup{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 2px solid blue;
+    position: relative;
+    font-size: 1em;
+}
+.placeholder{
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    cursor: text;
+    pointer-events: none;
+    color: gray;
+    /* z-index: 111; */
+}
+.inputGroup:focus + .placeholder,
+.inputGroup:not(:placeholder-shown).inputGroup:not(:focus) + .placeholder{
+    transform: translate(15px, -10px) scale(0.8);
+    background-color: white;
+    padding: 0 8px;
+    color: blue;
+    transition: 0.3s ease;
+    /* z-index: -1; */
+}
+.inputBox p{
+    font-size: 12px;
+    color: red;
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+.contextMenuBox {
+    display: inline;
+    border: 2px solid blue;
+    background-color: aliceblue;
+    padding-block: 8px;
+    font-weight: bold;
+    box-shadow: 0 0 8px blue;
+    color: blue;
+    position: absolute;
+    z-index: 111;
+}
+
+.contextMenuBox div {
+    display: block;
+    padding-right: 10px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.contextMenuBox .div1 {
+    margin-bottom: 4px;
+}
+
+.contextMenuBox div:hover {
+    background-color: blue;
+    color: white;
+}

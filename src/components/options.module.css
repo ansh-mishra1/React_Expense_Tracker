@@ -1,0 +1,19 @@
+.selectBox{
+    position: relative;
+}
+.select{
+    width: 100%;
+    border: 2px solid blue;
+    outline: none;
+    padding: 10px;
+    font-size: 1em;
+    position: relative;
+}
+.oLabel{
+    color: gray;
+}
+.selectBox p{
+    position: absolute;
+    font-size: 12px;
+    color: red;
+}

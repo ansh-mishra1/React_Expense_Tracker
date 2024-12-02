@@ -1,0 +1,27 @@
+.formSection{
+    width: 100%;
+    background-color: white;
+    padding: 24px;
+    border: 2px solid blue;
+    box-shadow: 4px 4px 18px 2px blue;
+    /* max-height: 600px; */
+    /* overflow-y: auto; */
+}
+.form{
+    width: 90%;
+    margin-inline: auto;
+    background-color: white;
+}
+.btn{
+    width: 100%;
+    padding-block: 10px;
+    font-size: 1em;
+    color: white;
+    border: none;
+    outline: none;
+    margin-bottom: 24px;
+    background-color: blue;
+    box-shadow: 0px 4px 12px 0px blue;
+    cursor: pointer;
+    /* letter-spacing: 12px; */
+}
